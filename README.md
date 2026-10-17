@@ -1,7 +1,7 @@
 # hw2-domain-testing
 
 
-> **Trạng thái:** Đã chạy đủ 87 ID: 69 web/API và 18 logic App.js trong compatibility harness. Tổng 54 đạt, 33 không đạt. N
+> **Trạng thái:** Đã chạy đủ 87 ID: 69 web/API và 18 logic App.js trong compatibility harness. Tổng 54 đạt, 33 không đạt. 
 
 ## Thông tin sinh viên và lựa chọn tính năng
 
@@ -12,17 +12,14 @@
 | C | FR-12 Kiểm soát truy cập | Giao diện/API admin và các API thay đổi dữ liệu |
 | D | FR-06 Chi tiết sản phẩm trên mobile | Màn hình chi tiết sản phẩm của ứng dụng mobile |
 
-FR-06 mô tả tính năng chi tiết sản phẩm nói chung; báo cáo áp dụng yêu cầu đó cho phần triển khai trên mobile. Cần xác nhận các lựa chọn này không trùng với thành viên khác trong nhóm.
 
 | Thông tin | Giá trị |
 |---|---|
-| Họ tên / MSSV | LeManhPhu - 23120325 |
+| Họ tên / MSSV | Le Manh Phu - 23120325 |
 | Nhóm | 7 |
 | SUT | EShop (`ttbhanh/eshop-sut`) |
 
 
-
-Đã chạy đủ 87 ID theo các môi trường ghi trong report: 69 case web/API và 18 case logic App.js qua compatibility harness. Tổng 54 đạt, 33 không đạt. Harness mobile dùng React Native mock; chưa chạy native Android/iOS. Build web thành công. Chi tiết từng ID ở [báo cáo Domain/BVA](HW02_Domain_BVA_Report.md).
 | Tóm tắt kiểm thử | Số lượng / trạng thái |
 |---|---:|
 | Số tính năng đã thiết kế             | 4             |

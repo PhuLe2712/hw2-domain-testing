@@ -37,7 +37,6 @@ Sau khi đăng ký thành công, người dùng được chuyển tới trang Đ
 | --- | --- | --- | --- | --- | --- |
 | REG - D01 | Tất cả trường hợp lệ; mật khẩu và xác nhận trùng nhau | 1. Mở register trên EShop web<br>2. Trường khác dùng giá trị hợp lệ, dùng email mới.<br>3. Nhấn đăng kí<br>4. Tạo một tài khoản; chuyển tới đăng nhập | Tạo một tài khoản; chuyển tới đăng nhập | Form không có ô xác nhận; gửi 3 trường hợp lệ tạo tài khoản, chuyển trang login. | FAIL |
 
-- Bằng chứng: ![image2](MainReport_assets/image2.png)
 
 | ID | Miền đại diện | Thao tác | Kết quả mong đợi | Kết quả thực tế | Trạng thái |
 | --- | --- | --- | --- | --- | --- |
@@ -85,10 +84,6 @@ Sau khi đăng ký thành công, người dùng được chuyển tới trang Đ
 | CART- D02 | Một sản phẩm, số lượng 1 | 1. Đã đăng nhập thành công.<br>2. Nhấn vào giỏ hàng<br>3. Reset giỏ hàng về rỗng<br>4. Ở trong danh sách sản phẩm thêm bất kì sản phẩm vào giỏ. | Đúng sản phẩm, đơn giá, số lượng, thành tiền và tổng tạm tính. | Sản phẩm: dòng iPhone: giá/số lượng/thành tiền/tổng tạm tính. Đúng và đầy đủ thông tin sản phẩm | PASS |
 | CART- D03 | Nhiều sản phẩm khác nhau | 1. Đã đăng nhập thành công.<br>2. Ở trong danh sách sản phẩm thêm bất kì nhiều sản phẩm khác nhau vào giỏ. | Mỗi sản phẩm một dòng; tính đúng từng dòng và tổng | 2 sản phẩm khác nhau hiển thị 2 dòng. Tổng đúng và đầy đủ thông tin sản phẩm | PASS |
 | CART- D04 | Thêm cùng một sản phẩm hai lần | 1. Đã đăng nhập thành công.<br>2. Nhấn vào giỏ hàng<br>3. Reset giỏ hàng về rỗng<br>4. Ở trong danh sách sản phẩm thêm 2 sản phẩm giống nhau vào giỏ. | Một dòng; số lượng tăng | Thêm iPhone 2 lần tạo 2 dòng số lượng là 1 thay vì 1 dòng số lượng là 2. | FAIL |
-
-- Bằng chứng Cart – 04:
-
-![image3](MainReport_assets/image3.png)
 
 | ID | Miền đại diện | Thao tác | Kết quả mong đợi | Kết quả thực tế | Trạng thái |
 | --- | --- | --- | --- | --- | --- |

@@ -154,7 +154,7 @@ Giỏ hiển thị hai dòng iPhone riêng biệt, mỗi dòng quantity 1.
 
 #### Bằng chứng
 
-Ảnh giỏ hàng có trong Issue #4; ảnh local [FR07-hai-dong-cung-san-pham.png](evidence/FR07-hai-dong-cung-san-pham.png).
+Ảnh giỏ hàng có trong Issue #4;
 
 ---
 

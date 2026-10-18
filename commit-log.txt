@@ -1,0 +1,38 @@
+﻿2c7c08c | PhuLe2712 | 2026-10-18 | Agent host session 3c1cc23a-7753-4ecd-a0d3-9911debcaa21 - turn 6
+8b44079 | PhuLe2712 | 2026-10-18 | Agent host session 3c1cc23a-7753-4ecd-a0d3-9911debcaa21 - turn 6 start
+18e693c | PhuLe2712 | 2026-10-18 | Replace Word reports with PDF versions
+7ebfac1 | PhuLe2712 | 2026-10-18 | Agent host session 7bc4c081-c110-463a-b4fa-c997d9e4df44 - turn 2
+17ca480 | PhuLe2712 | 2026-10-18 | Agent host session 7bc4c081-c110-463a-b4fa-c997d9e4df44 - turn 2 start
+bbfaf6b | PhuLe2712 | 2026-10-18 | Update MainReport.md
+7a26346 | PhuLe2712 | 2026-10-18 | Chinh sua AI Audit
+8c57aa7 | PhuLe2712 | 2026-10-18 | Chß╗ënh sß╗¡a file AI Audit
+319c339 | PhuLe2712 | 2026-10-18 | Agent host session 7bc4c081-c110-463a-b4fa-c997d9e4df44 - turn 1
+a89ab2f | PhuLe2712 | 2026-10-18 | Agent host session 7bc4c081-c110-463a-b4fa-c997d9e4df44 - turn 1 start
+72c675d | PhuLe2712 | 2026-10-18 | Agent host session 7bc4c081-c110-463a-b4fa-c997d9e4df44 - baseline checkpoint
+d54249d | PhuLe2712 | 2026-10-18 | Update [AI-02] - FIT@HCMUS - AI Audit Report_En.md
+0821a5e | PhuLe2712 | 2026-10-18 | Update Bug_Report.md
+26c63d6 | PhuLe2712 | 2026-10-18 | Update Bug_Report.md
+7f6479c | PhuLe2712 | 2026-10-18 | Update Bug_Report.md
+de179ec | PhuLe2712 | 2026-10-18 | Sua  Bug report
+7c5a5f5 | PhuLe2712 | 2026-10-18 | Bo sung Bug report
+a564ec7 | PhuLe2712 | 2026-10-18 | Bo sung cac file md va chinh sua AI audit report
+50c6fe2 | PhuLe2712 | 2026-10-18 | Agent host session 3c1cc23a-7753-4ecd-a0d3-9911debcaa21 - turn 5
+24ee0b1 | PhuLe2712 | 2026-10-18 | Agent host session 3c1cc23a-7753-4ecd-a0d3-9911debcaa21 - turn 5 start
+cbe34d5 | PhuLe2712 | 2026-10-18 | Agent host session 3c1cc23a-7753-4ecd-a0d3-9911debcaa21 - turn 4
+011e34a | PhuLe2712 | 2026-10-18 | Agent host session 3c1cc23a-7753-4ecd-a0d3-9911debcaa21 - turn 4 start
+b486ab9 | PhuLe2712 | 2026-10-18 | Agent host session 3c1cc23a-7753-4ecd-a0d3-9911debcaa21 - turn 3
+4b7838b | PhuLe2712 | 2026-10-18 | Agent host session 3c1cc23a-7753-4ecd-a0d3-9911debcaa21 - turn 3 start
+6f216a8 | PhuLe2712 | 2026-10-18 | Agent host session 3c1cc23a-7753-4ecd-a0d3-9911debcaa21 - turn 2
+6fbad1e | PhuLe2712 | 2026-10-18 | Agent host session 3c1cc23a-7753-4ecd-a0d3-9911debcaa21 - turn 2 start
+deba9ee | PhuLe2712 | 2026-10-18 | Hoan thanh MainReport, AI critique va AI audit report
+105a9cf | PhuLe2712 | 2026-10-18 | Hoan thanh main report, AI Critique va AI audit
+13362f3 | PhuLe2712 | 2026-10-18 | Agent host session 3c1cc23a-7753-4ecd-a0d3-9911debcaa21 - turn 1
+636a37e | PhuLe2712 | 2026-10-18 | Agent host session 3c1cc23a-7753-4ecd-a0d3-9911debcaa21 - turn 1 start
+f27ec4c | PhuLe2712 | 2026-10-18 | Agent host session 3c1cc23a-7753-4ecd-a0d3-9911debcaa21 - baseline checkpoint
+5a6ee30 | PhuLe2712 | 2026-10-17 | Fix table formatting in README.md
+0f09e85 | PhuLe2712 | 2026-10-17 | Update README.md
+2ce555b | PhuLe2712 | 2026-10-17 | Update README.md
+ed13fb5 | PhuLe2712 | 2026-10-17 | Update README with testing status and student details
+5d27f4a | PhuLe2712 | 2026-10-16 |  Hoan thanh pool C va cap nhat them AI Audit Report
+eaad08b | PhuLe2712 | 2026-10-15 | Hoan  thanh domain va bva cua pool A va pool B
+a768cde | PhuLe2712 | 2026-10-14 | Initial commit

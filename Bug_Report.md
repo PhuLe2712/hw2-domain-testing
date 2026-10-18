@@ -40,7 +40,7 @@
 3. Nhập các giá trị hợp lệ vào tên, email và mật khẩu rồi gửi form.
 4. Thử tìm trường xác nhận mật khẩu hoặc kiểm tra request `POST /api/register`.
 
-#### Kết quả mong đợi (nguồn: README.md, FR-01)
+#### Kết quả mong đợi 
 
 Form có trường xác nhận mật khẩu; nếu hai mật khẩu không khớp thì từ chối đăng ký và không tạo tài khoản.
 
@@ -72,7 +72,7 @@ Không có trường xác nhận mật khẩu. Form chỉ gửi tên, email và 
 3. Kiểm tra response hoặc danh sách user trong database test.
 4. Lặp lại với cùng địa chỉ email nhưng đổi chữ hoa/thường để kiểm tra hành vi phân biệt hoa thường.
 
-#### Kết quả mong đợi (nguồn: README.md, FR-01)
+#### Kết quả mong đợi 
 
 Email phải duy nhất. Lần đăng ký sau bị từ chối; số tài khoản với địa chỉ email đó không tăng.
 
@@ -113,7 +113,7 @@ Issue #2 hiện có 4 ảnh.
 
 4. Kiểm tra HTTP status, response body và user mới trong database test.
 
-#### Kết quả mong đợi (nguồn: README.md, FR-01)
+#### Kết quả mong đợi 
 
 Server từ chối tên/email/mật khẩu không hợp lệ bằng response validation phù hợp; không tạo user mới.
 
@@ -144,7 +144,7 @@ Issue #3 đã có 1 ảnh.
 2. Bấm `Thêm vào giỏ` hai lần.
 3. Mở trang `/cart` và đếm số dòng iPhone.
 
-#### Kết quả mong đợi (nguồn: README.md, FR-07)
+#### Kết quả mong đợi 
 
 Cùng một sản phẩm chỉ có một dòng; quantity tăng từ 1 lên 2 và tổng tiền được tính theo quantity mới.
 
@@ -176,7 +176,7 @@ Giỏ hiển thị hai dòng iPhone riêng biệt, mỗi dòng quantity 1.
 3. Thử tăng quantity; lặp lại với sản phẩm quantity 2 để thử giảm về 1.
 4. Kiểm tra xem thành tiền và tổng giỏ có thể cập nhật theo thao tác hay không.
 
-#### Kết quả mong đợi (nguồn: README.md, FR-07)
+#### Kết quả mong đợi 
 
 Có điều khiển tăng/giảm quantity; thành tiền dòng và tổng giỏ thay đổi tương ứng, không giảm quantity xuống giá trị không hợp lệ.
 
@@ -208,7 +208,7 @@ Quantity chỉ là văn bản. Không có điều khiển tăng/giảm nên các
 3. Bấm `Xóa` ở dòng sản phẩm.
 4. Quan sát xem có hộp thoại xác nhận/hủy hay sản phẩm biến mất ngay.
 
-#### Kết quả mong đợi (nguồn: README.md, FR-07)
+#### Kết quả mong đợi 
 
 Hiện dialog xác nhận. Chọn hủy thì giữ nguyên sản phẩm; chỉ xóa sau khi người dùng xác nhận.
 
@@ -218,7 +218,7 @@ Sản phẩm bị xóa ngay sau khi bấm `Xóa`; không có dialog hoặc thao 
 
 #### Bằng chứng
 
-Issue #6 hiện có 2 ảnh. Ảnh local trước khi xóa: [BUG-06-cart-before-remove.png](evidence/BUG-06-cart-before-remove.png); sau khi xóa: [BUG-06-cart-after-remove.png](evidence/BUG-06-cart-after-remove.png). Hai ảnh local chưa tải lên GitHub.
+Issue #6 hiện có 2 ảnh.
 
 ---
 
@@ -239,7 +239,7 @@ Issue #6 hiện có 2 ảnh. Ảnh local trước khi xóa: [BUG-06-cart-before-
 2. Mở `/cart`.
 3. Quan sát nhãn bên cạnh tổng tiền cuối trang.
 
-#### Kết quả mong đợi (nguồn: README.md, FR-07)
+#### Kết quả mong đợi 
 
 Nhãn hiển thị `Tổng cộng`.
 
@@ -276,7 +276,7 @@ UI hiển thị `Tổng tạm tính`.
    - `POST /api/admin/coupons` với dữ liệu coupon test.
 4. So sánh response và trạng thái dữ liệu trước/sau. Không đưa token vào ảnh công khai.
 
-#### Kết quả mong đợi (nguồn: README.md, FR-12)
+#### Kết quả mong đợi 
 
 API đặc quyền chỉ cho phép token hợp lệ có `role = admin`. Với token user, server trả 401/403 và không đọc/thêm/sửa/xóa dữ liệu.
 
@@ -318,7 +318,7 @@ Issue #8 có nhiều ảnh trong nội dung/bình luận cho ACL-D04–D09 và B
 
 4. Gọi lại `GET /api/users/me` và kiểm tra role; không thử trên tài khoản/dữ liệu thật.
 
-#### Kết quả mong đợi (nguồn: README.md, FR-12)
+#### Kết quả mong đợi 
 
 Server bỏ qua hoặc từ chối trường `role` do client gửi; role của user vẫn là `user` và tài khoản không được cấp quyền admin.
 
@@ -350,7 +350,7 @@ Issue #9 có 2 ảnh. Body hiện đang ghi nhầm `BUG-10` thay vì `BUG-09` �
 3. Mở màn hình chi tiết sản phẩm.
 4. Kiểm tra khu vực thông tin sản phẩm có tên danh mục hay không.
 
-#### Kết quả mong đợi (nguồn: yêu cầu chi tiết sản phẩm FR-06/FR-20 trong SRS)
+#### Kết quả mong đợi 
 
 Chi tiết hiển thị danh mục cùng các thông tin sản phẩm theo yêu cầu.
 
@@ -381,7 +381,7 @@ Harness không render tên danh mục. Đây là kết quả harness, chưa ph�
 2. Mở khu vực giao diện được nêu trong issue (hiện issue ghi trang chủ; test case `MOB-D03` ghi màn hình chi tiết).
 3. Quan sát vùng ảnh.
 
-#### Kết quả mong đợi (nguồn: tiêu chí ghi trong Issue #11)
+#### Kết quả mong đợi 
 
 Hiện ảnh mặc định hoặc một trạng thái lỗi ảnh rõ ràng, không để vùng ảnh trống mà không giải thích.
 
@@ -414,7 +414,7 @@ Harness ghi nhận không có ảnh thay thế. Phạm vi giữa test case và b
 2. Lần lượt nhập `0`, `-1`, `1.5` và để trống trường quantity.
 3. Với mỗi giá trị, bấm thêm vào giỏ và kiểm tra quantity cuối cùng.
 
-#### Kết quả mong đợi (nguồn: README.md, FR-06)
+#### Kết quả mong đợi 
 
 Chỉ nhận số nguyên dương. Giá trị không hợp lệ phải bị từ chối và có thông báo rõ ràng; không tự đổi thành giá trị khác.
 

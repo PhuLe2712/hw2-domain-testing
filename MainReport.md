@@ -15,6 +15,7 @@ MSSV: 23120325
 Gmail: lemanhphu2712@gmail.com
 
 Github repo: https://github.com/PhuLe2712/hw2-domain-testing.git
+Github repo của nhóm: https://github.com/hoangphi117/HW02
 
 ## I. FR-01 Đăng ký tài khoản (Pool A)
 

@@ -1,14 +1,7 @@
 # Báo cáo lỗi chi tiết — GitHub Issues
 
-## 1. Phạm vi và cách lập báo cáo
 
-File này mô tả chi tiết 12 lỗi đã đăng ở repository nhóm [PhuLe2712/hw2-domain-testing](https://github.com/PhuLe2712/hw2-domain-testing), theo bố cục bug report của [repo tham khảo HW02](https://github.com/hoangphi117/HW02/tree/master/A-FR-04) và [mẫu bug report trong skills](https://github.com/hoangphi117/HW02/blob/master/skills/dtbva-execution-reporting/assets/bug_report_template.md): mã/tên lỗi, test case phát hiện, FR/kênh, môi trường, mức độ, issue, bước tái hiện, kết quả mong đợi có nguồn, kết quả thực tế và bằng chứng.
-
-Cập nhật ngày **18-10-2026** sau khi kiểm tra nội dung issue và các bình luận có ảnh đính kèm. Cả 12 issue (#1–#12) đang mở. **Priority dưới đây là đề xuất cho báo cáo**, vì GitHub issue hiện không ghi priority. Mức độ (Severity) được giữ theo issue. Các bước dùng dữ liệu kiểm thử; với thao tác xóa/sửa dữ liệu, chỉ chạy trên database test.
-
-Nguồn yêu cầu: `eshop-sut/README.md`, các mục FR-01, FR-07, FR-12 và FR-06/FR-20; kết quả chi tiết và điều kiện chạy nằm trong [báo cáo Domain/BVA](HW02_Domain_BVA_Report.md) và [nhật ký thực thi](Thuc_thi_thuc_te.md). Issue đang mở là trạng thái theo dõi trên GitHub, không phải xác nhận lỗi đã được sửa.
-
-## 2. Tóm tắt lỗi
+##  Tóm tắt lỗi
 
 | Bug ID | Tiêu đề | Severity | Priority đề xuất | Test case liên quan | GitHub Issue |
 |---|---|---:|---:|---|---|
@@ -27,7 +20,7 @@ Nguồn yêu cầu: `eshop-sut/README.md`, các mục FR-01, FR-07, FR-12 và FR
 
 > Ghi chú: Priority là đánh giá đề xuất để nhóm sắp xếp xử lý, không phải trường dữ liệu đã có trên các issue.
 
-## 3. Chi tiết bug report
+## Chi tiết bug report
 
 ### BUG-01 — Form đăng ký không yêu cầu xác nhận mật khẩu
 
@@ -89,7 +82,7 @@ Lần đăng ký thứ hai được chấp nhận và tạo user mới. Trong l�
 
 #### Bằng chứng
 
-Issue #2 hiện có 4 ảnh. Ảnh bổ sung từ lần tái hiện local: [BUG-02-email-duplicate.png](evidence/BUG-02-email-duplicate.png); ảnh này chưa được tải lên GitHub.
+Issue #2 hiện có 4 ảnh. 
 
 ---
 
@@ -130,7 +123,7 @@ Trong lần tái hiện local, server trả `HTTP 200` với `{"message":"User r
 
 #### Bằng chứng
 
-Issue #3 đã có 1 ảnh. Ảnh lần tái hiện local: [BUG-03-invalid-registration-api.png](evidence/BUG-03-invalid-registration-api.png); chưa tải lên GitHub. Ảnh thể hiện body request và response thật từ backend local.
+Issue #3 đã có 1 ảnh. 
 
 ---
 
@@ -433,10 +426,4 @@ Harness ghi nhận các giá trị `0`, số âm, thập phân và để trống
 
 4 ảnh cho các giá trị đã thử nằm trong [GitHub Issue #12](https://github.com/PhuLe2712/hw2-domain-testing/issues/12). Kết quả chỉ được xác nhận trong harness.
 
-## 4. Việc cần rà soát để đồng bộ hồ sơ
 
-- **Issue #9:** sửa mã `BUG-10` trong body thành `BUG-09` và đóng đúng định dạng Markdown của tiêu đề mục bằng chứng.
-- **Issue #11:** thống nhất bước tái hiện ở trang chủ hay màn hình chi tiết để khớp với `MOB-D03` và bằng chứng.
-- **Issue #8:** kiểm tra ảnh và bình luận đã che token/JWT, email hoặc dữ liệu cá nhân trước khi dùng làm bằng chứng nộp.
-- **Pool D:** giữ mô tả kết quả là compatibility harness cho tới khi có lần tái hiện và bằng chứng native.
-- Ảnh local BUG-02, BUG-03 và BUG-06 nằm trong `evidence/`, chưa tự tải lên GitHub; tải thủ công vào issue tương ứng nếu muốn bổ sung.
